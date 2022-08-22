@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffeedf ;
+    font-family: Space Grotesk, Helvetica, sans-serif;
+    color: #145434;
+}
+
+.material-symbols-outlined {
+    font-size: 36px;
+    font-weight: 500;
+    font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48,
+   
+}
+
+
+#menubar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 62px;
+    border-bottom: #145434 solid 1px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+}
+
+h1 {
+    color: #145434;
+    font-size: 36px;
+
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    gap: 50px;
+    padding: 20px 200px 60px 200px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 400px;
+    height: 245px;
+    background-color: #145434;
+    padding: 40px 40px 45px 40px;
+
+}
+
+.beer_name {
+    font-size: xx-large;
+    font-weight: 400;
+    color: #ffeedf;
+    margin-bottom: 45px;
+}
+
+.manu {
+    font-size: large;
+    color: #ffeedf;
+    font-weight: 200;
+    line-height: 24px;
+
+}
+
+.beer_type {
+    font-size: large;
+    color: #ffeedf;
+    font-weight: bold;
+}
+
+.inner_box {
+
+    border-top: #ffeedf solid 1px;
+    width: 320px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: #145434;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: #145434 solid 2px;
+    background-color: #ffeedf;
+    top: -20px;
+    left: -20px;
+}
+
+
+.details {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    color: #145434;
+    background-color: #ffeedf;
+    border: #145434 solid 2px;
+    height: 50px;
+    width: 200px;
+    bottom: -10px;
+    right: -10px;
+}
+
+.arrow {
+    position: absolute;
+    right: 4px;
+}
